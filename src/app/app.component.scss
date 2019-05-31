@@ -1,0 +1,57 @@
+table {
+  width: 66%; 
+  margin: 0 17%;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#topBar li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#topBar a {
+  padding: 8px;
+  color: white;
+}
+
+input {
+  background-color: grey;
+}
+
+::placeholder {
+  color: rgb(226, 224, 224);
+  opacity: 0.5;
+}
+
+input:focus {
+  background-color: white;
+  color: grey;
+}
+
+#topBar {
+  background-color: #3b3a3a;
+  width: 100%;
+  height: 40px;
+}
+
+#sideBar {
+  background-color: #dfdfdf;
+  width: 120px;
+  height: 100%;
+}
+
+#sideBar a {
+  display: block;
+  width: 60px;
+  padding: 8px 16px;
+  color: black;
+}
